@@ -1,0 +1,194 @@
+body, html{
+  height: 100%;
+  margin: 0px;
+  background-color: white;
+}
+
+
+
+ header{
+  background-color: black;
+  margin: 0;
+  list-style-type: none;
+ 
+  padding: 20px;
+  text-align: center;
+  
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover{
+  color: blue
+  ;
+}
+
+nav li{
+  display: inline;
+  margin: 20px;
+}
+
+header h1{
+  color: white;
+}
+
+main h2{
+  text-align: center;
+}
+
+.casper-wyoming{
+  background-color: lightgray;
+  height: 300px;
+  padding: 200px;
+  background-image: url(casper-wyoming.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  
+  
+  
+}
+
+.ashburn-virginia{
+  background-color: lightgray;
+  height: 300px;
+  padding: 200px;
+  background-image: url(ashburn-virginia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 20px;
+  
+  
+  
+}
+
+.heading-text{
+  background-color: black;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#casper a{
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  text-decoration: underline;
+}
+
+#ashburn a{
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  text-decoration: underline;
+}
+
+#casper a:hover{
+  opacity: 70%;
+}
+
+#casper a:active{
+  opacity: 50%;
+}
+
+#ashburn a:hover{
+  opacity: 70%;
+}
+
+#ashburn a:active{
+  opacity: 50%;
+}
+
+footer{
+  display: inline;
+  margin: 0;
+  list-style-type: none;
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  
+}
+
+
+
+main ul {
+  text-align: center;
+}
+
+main li {
+  display: inline-block; 
+  margin: 10px;
+}
+
+p{
+  text-align: center;
+}
+
+video{
+  justify-content: center;
+}
+
+.heading{
+  background-color: white;
+  padding: 40px;
+  
+}
+
+
+
+.responsive-video {
+  display: block;
+  margin: 0 auto; 
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  nav li {
+    margin: 10px;
+  }
+
+  main h2 {
+    font-size: 1.5rem;
+  }
+
+  .casper-wyoming, .ashburn-virginia {
+    height: 200px;
+    padding: 100px;
+  }
+
+  .heading-text {
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}

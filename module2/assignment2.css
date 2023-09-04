@@ -1,0 +1,45 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  margin: 0px;
+ }
+
+ #wrapper{
+  width: 1800px;
+  margin: auto;
+}
+
+header{
+  background-color: black;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  text-shadow: 7px;
+  margin-top: 0px;
+}
+
+h2{
+  color: green;
+  margin-top: -20px;
+  margin-left: 30px;
+}
+
+footer{
+  background-color: black;
+  text-align: right;
+  font-style: italic;
+  font-size: .8em;
+}
+
+h3{
+  color: green;
+  border-bottom:2px dashed;
+  padding: 10px;
+  background-color: lightblue;
+  text-align: auto;
+}
+
+
+

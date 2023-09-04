@@ -1,0 +1,66 @@
+/*
+Dimitrius Marino
+default.htm
+INFO1311
+Olberding
+06/05/2023
+*/
+
+
+body {
+  background-color: #003366;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  min-width: 800px;
+}
+
+header {
+  height: 120px;
+  background-image: url(primelogo.gif);
+  background-repeat: no-repeat;
+  background-color: #BACBE0;
+  padding-top: 1px;
+}
+
+h1 {
+  color: #003366;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-left: 100px;
+}
+
+nav a:link {
+  color: white;
+}
+
+nav a:visited {
+  color: #BACBE0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px; /* Adjust the value to your desired spacing */
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+}
+
+footer {
+  font-size: 0.7em;
+  text-align: center;
+  border-top: 1px solid #003366;
+  background-color: #BACBE0;
+  padding: 20px;
+}
+
+.copyright{
+  font-style: italic;
+}
+
+

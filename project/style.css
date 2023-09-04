@@ -1,0 +1,255 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222;
+  color: #fff;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+
+.banner {
+  width: 100%;
+  height: 150px; 
+  background-color: lightgray;
+  background-image: url(images/bistro-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+  margin-top: 100px;
+  border: solid;
+  border-radius: 8px;
+
+}
+
+#navigation{
+  text-align: center;
+  font-size: 30px;
+}
+
+.unordered-list{
+  list-style-type: none;
+  color: black;
+  
+}
+
+ul a{
+  color: black;
+  text-decoration: none;
+}
+
+ul a:hover{
+  opacity: 70%;
+
+}
+
+ul a:active{
+  opacity: 50%;
+}
+
+#home-info{
+  text-align: center;
+  margin-top: 80px;
+  border: solid 1px;
+  border-radius: 8px;
+}
+
+button{
+  width: 250px;
+  height: 90px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 100px;
+  font-size: 18px;
+  background-color: lightgreen;
+}
+
+button:hover{
+  opacity: 70%;
+}
+
+button:active{
+  opacity: 50%;
+}
+
+#history-content{
+  text-align: center;
+  margin-top: 50px;
+  border: solid;
+  border-radius: 8px;
+
+}
+
+main h1{
+  font-size: 50px;
+}
+
+main p{
+  font-style: bold;
+}
+
+#specials-content{
+  text-align: center;
+  margin-top: 50px;
+  border: solid;
+  border-radius: 8px;
+}
+
+.specials{
+  padding: 20px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+header {
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.banner {
+  margin: 0;
+}
+
+
+nav {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.unordered-list {
+  list-style: none;
+  padding: 0;
+}
+
+.unordered-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.unordered-list li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+
+main {
+  padding: 20px;
+}
+
+#home-info {
+  text-align: center;
+}
+
+
+form {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #0056b3;
+}
+
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.footer-navigation {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-navigation li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-navigation li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+
+@media (max-width: 767px) {
+  form {
+    max-width: 90%;
+  }
+
+  .unordered-list li {
+    display: block;
+    margin: 10px 0;
+  }
+}
